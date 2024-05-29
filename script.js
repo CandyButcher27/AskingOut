@@ -24,12 +24,12 @@ const answers_no = {
         "Ek aur baar sochle?",
         "Please yaar one chance?",
         "Itna bhi bura insaan nahi hu",
-        "Ek baar ispe baat karle?",
+        "Ek baar acche se socle naaaa :[[",
         "Accha last baar pooch raha hu",
         "Pwwwwweaseeeee???",
-        "Yaaaar please bolne pe baat nmaante haii",
+        "Yaaaar please bolne pe baat maante haii",
         "Kyu kar rahi hai aisa :((",
-        "Mai phir katti hiojaunga",
+        "Maine phir katti kar dena hai",
         "Accha Last last last last chance",
         "Toh Chaliye Phir se shuru kare :)"
     ]
@@ -74,6 +74,8 @@ no_button.addEventListener('click', () => {
         yes_button.style.height = "50px";
         yes_button.style.width = "50px";
         size = 50;
+        banner.src="mid.gif"
+        refreshBanner()
     }
 });
 
