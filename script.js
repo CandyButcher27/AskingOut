@@ -126,7 +126,7 @@ function changeLanguage() {
     // Update success message
     const successMessage = document.getElementById("success-message");
     if (language === "hindi") {
-        successMessage.textContent = "YESSSSS Campus pe mil :333";
+        successMessage.textContent = "YESSSSS jaldi mill :333";
     } else {
         successMessage.textContent = "YESSSSSSSSS meet me on campus :333";
     }
